@@ -1,0 +1,8 @@
+source,strategy,coverage_num,coverage_den,reference_posted,reference_eligible,query_posted,query_eligible,posting_status,posting_status_note
+SU2C,Core,13,33,12,24,5,11,estimable,
+SU2C,Expanded aliases,13,33,12,24,5,11,estimable,
+MRC,Core,27,65,4,34,1,11,estimable,
+MRC,Expanded aliases,31,65,4,34,2,15,estimable,
+KCE,Official full name,1,61,6,27,,,NE,No eligible NCT returned
+KCE,Official aliases,10,61,6,27,0,4,estimable,
+KCE,Aliases plus documented variant,27,61,6,27,3,10,estimable,

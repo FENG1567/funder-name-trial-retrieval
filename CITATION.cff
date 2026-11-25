@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use the code accompanying this research, please cite the associated study."
+title: "Similar Results-Posting Proportions Despite Low Trial Retrieval by Funder Name: A Pancreas-Focused Portfolio and Cross-Funder Analysis"
+authors:
+  - family-names: Feng
+    given-names: Shuo
+  - family-names: Shi
+    given-names: Chao
+  - family-names: Liu
+    given-names: Tianming
+  - family-names: Ding
+    given-names: Haoran
+  - family-names: Hang
+    given-names: Fenghe
+  - family-names: Huang
+    given-names: Zhenghao
+  - family-names: Liu
+    given-names: Liwei
+version: 1.0.0
+date-released: 2026-11-25
+repository-code: "https://github.com/FENG1567/funder-name-trial-retrieval"

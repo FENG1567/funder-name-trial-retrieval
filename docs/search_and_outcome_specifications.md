@@ -1,0 +1,103 @@
+# Search and outcome specifications
+
+These specifications document the reported methods.
+
+## Source documents and capture dates
+
+SU2C project links came from the 2022 Science Portfolio [1]. MRC records came from the 2024 clinical-trials dataset, using registry trial-end dates for historical eligibility and Publication Status (01/12/2024) for the historical outcome [2]. KCE source capture included its funded-trials page (https://kce.fgov.be/en/kce-trials/funded-trials) and linked clinical-trials-with-results page (https://kce.fgov.be/en/kce-trials/funded-trials/clinical-trials-with-results) [3]. SU2C and MRC records were captured October 20, 2026. KCE records were captured October 21, 2026.
+
+The NIHR Health Technology Assessment catalogue was captured October 20, 2026, using https://fundingawards.nihr.ac.uk/api/projects?search=*&filter=programme:%22Health%20Technology%20Assessment%22&sort=score:desc [4]. Pilot queries were captured October 20, 2026. Extension and full-set queries were captured October 21, 2026. ClinicalTrials.gov API documentation was accessed October 20, 2026 [5].
+
+## Formation of the source sets
+
+SU2C screening used the 2022 portfolio and contemporaneous official funding announcements to identify projects initiated in 2009–2018 with a pancreas-specific aim or a distinct pancreatic clinical work package. Eligibility required an explicit prospective clinical aim; a listed NCT alone was insufficient. Twenty-seven screening entries yielded 11 primary projects, three uncertain entries, and 13 excluded or nonproject leads. The 11 projects linked to 33 distinct NCTs. The source-defined set describes portfolio-associated registrations, including mixed-cancer and behavioural studies.
+
+The MRC workbook contained 141 source rows. Sixty-three contained 65 unique NCTs, with no NCT duplicated across rows. Two rows listed two NCTs each. Historical eligibility used Trial end date (registry), not award end: 58 rows ended by December 31, 2022 and 83 ended later. Every source row had a recorded registry end date. All 58 eligible rows contained at least one registry identifier. The 27 eligible NCT-bearing rows contained 29 unique NCTs; the historical outcome remained a row-level source classification.
+
+The KCE roster combined 79 rows from the funded-trials and trials-with-results pages. Deduplication by programme code yielded 78 entries; the DUET entry appeared on both pages. Official detail pages were used to resolve registration references. The final source classification was 61 NCT-linked entries, one ISRCTN-only entry, three entries linked to other registries, and 13 unresolved entries. The validated NCT-linked set contained 61 unique NCTs.
+
+NIHR selection used the catalogue award start-date field. Of 350 awards beginning in 2012–2015, 126 had clear trial titles, 42 had nontrial titles, and 182 remained unclear. One CAVA-acronym record was held out before sampling because that acronym had been encountered previously. This was a prior-exposure precaution rather than proof of duplicate identity. It preceded formation of the 125-family evaluation frame. The title/acronym/investigator grouping rules produced no mergers in that frame. The first 12 and next 24 families in the deterministic order formed the pilot and extension; the full frame was used only for name-query membership of documented reference links.
+
+Current posting eligibility yielded 24/33 SU2C, 34/65 MRC, and 27/61 KCE NCTs. For SU2C, 25 had ACTUAL primary completion by the cutoff; three ended later and five lacked an ACTUAL primary-completion type. One of the 25 lacked ACTUAL enrollment in the registry, leaving 24. All 31 SU2C records with ACTUAL enrollment had positive counts. For MRC, 34 met the actual-completion cutoff and all 34 also met enrollment eligibility. Eight NCTs ended later and 23 had estimated primary-completion dates; 21 of those 23 also had estimated enrollment. KCE excluded 34 records under the combined completion and enrollment rules. Missing required fields did not qualify. NCT03762590 was the additional historically eligible SU2C record, with actual enrollment established by its report.
+
+## SU2C ascertainment and availability dates
+
+The historical SU2C search covered ClinicalTrials.gov results and reference modules, PubMed searches using each NCT, linked primary articles, and follow-up of unresolved trial titles, acronyms, and cited reports. Each NCT was queried as NCTxxxxxxxx[All Fields], and PMIDs listed in registry references were collected. The initial candidate pool contained 140 records. PubMed records and accessible PubMed Central or publisher text were used to assess trial identity, clinical cohort, intervention, and report type. Title, acronym, and linked-reference searches supplemented identifier searches, including MinPAC and ASCO leads. The assessment was limited to these search routes.
+
+The primary evidence set was fixed to material available by October 19, 2026. Journal availability used a public publication record or an article already accessible at the precutoff capture; the earliest electronic publication date was used when verified. PubMed ArticleDate, journal publication fields, and publisher records supplied dates at their recorded precision. Month- or year-only information was retained at that precision. An exact day was not required to establish that an earlier-year paper preceded the cutoff. Registry-positive status was already documented in the October 19 capture; subsequent October 20 posting comparisons used their own same-day snapshot. The two EUCTR-positive records had published results dated January 1, 2020 (NCT02179970) and June 15, 2024 (NCT03336216).
+
+Trial identity required an explicit registration link or concordant documentary trial and cohort information. NCT01196247 was excluded from the primary journal numerator because its candidate paper lacked an explicit NCT and the accrued/evaluable cohort identity remained unresolved. The 20/25 primary result represents qualifying evidence confirmed through the specified search routes; evidence for the remaining five records was unconfirmed. The separate NCT03563248 conference sensitivity used a publisher-deposited abstract explicitly identifying the trial as an additional qualitative reporting channel.
+
+## Exact funder-name queries
+
+ClinicalTrials.gov version 2 searches combined filter.ids with query.term [5]. The latter is a general search across indexed record content, not a restriction to a structured funding field. Exact-identifier controls omitted query.term. The SU2C core query was "Stand Up To Cancer". The expanded SU2C query was "Stand Up To Cancer" OR "Stand Up 2 Cancer" OR SU2C OR "Entertainment Industry Foundation". The MRC core query was "Medical Research Council". The expanded MRC query was "Medical Research Council" OR MRC OR "UK Research and Innovation" OR UKRI. Requests used countTotal=true and pageSize=100, with no disease, status, phase, date, or intervention filters.
+
+The KCE core query was "Belgian Health Care Knowledge Centre". The official-alias query was "Belgian Health Care Knowledge Centre" OR "KCE" OR "Federaal Kenniscentrum voor de Gezondheidszorg" OR "Centre fédéral d'expertise des soins de santé". A separate exploratory variant added "Belgium Health Care Knowledge Centre" after the initial results. KCE requests used the same source-linked NCTs in filter.ids, countTotal=true, and pageSize=1000, with no clinical or date filters.
+
+NIHR Strategy A used "National Institute for Health Research" OR "National Institute for Health and Care Research" OR NIHR, with the final NIHR unquoted. ClinicalTrials.gov global baselines used pageSize=1000 and a configured 10,000-record ceiling. Pilot ISRCTN global A used a count preflight with limit=1 and a configured 10,000-record ceiling. Extension ISRCTN A checked known identifiers under the name query. Full-set A was restricted to known identifiers on both platforms. These scopes correspond to the comparisons specified in the main Methods. ClinicalTrials.gov global A completely exported 832 unique matches on October 20 and 831 on October 21, each below its configured ceiling. The pilot ISRCTN baseline was not estimable.
+
+## NIHR title screening and deterministic selection
+
+Registry identifiers were removed before screening source titles. Abstracts and summaries were not retrieved for that screen. Clear trials required both an explicit trial-design term (randomized or controlled, phase, pilot, or feasibility trial) and a human-health cue. Titles describing only synthesis or review, observational or cohort work, surveys, models, diagnostic-accuracy work, or follow-up without a new trial design were excluded. Titles with unresolved multi-trial or comparator identity, or insufficient trial evidence, remained unclear and outside the clear-trial frame. A review term alone did not exclude a title that met both clear-trial criteria.
+
+Families were ordered by SHA-256 of UTF-8 20261020|canonicalID, with canonical ID as tie-breaker and without replacement. The first 12 formed the pilot and the next 24 the extension. Registry identifiers and outcome labels were not inputs to selection. Source titles and award metadata were contemporaneous catalogue records, rather than archived text from the original award date.
+
+## Source-assisted queries and matching
+
+Strategy B queried each quoted canonical award code and an AND combination of title tokens, without registry IDs. Titles were HTML-unescaped, normalized with Unicode NFKD, deaccented, lowercased, and stripped of complete registry identifiers. Alphabetic tokens of at least three letters were deduplicated in original order. After stopword removal, the first four tokens were combined with AND. At least two tokens were required for a title query.
+
+Title processing excluded these stopwords, the, and, for, with, without, versus, compared, comparison, between, from, into, among, after, before, during, using, use, study, studies, trial, trials, randomised, randomized, randomisation, randomization, controlled, control, clinical, multicentre, multicenter, centre, center, parallel, group, groups, pragmatic, pilot, feasibility, protocol, evaluation, evaluate, evaluating, assessment, assess, effectiveness, efficacy, cost, effective, effect, effects, treatment, treatments, therapy, therapies, non, inferiority, superiority, open, label, blind, blinded, double, single, phase, patients, patient, people, adults, children, health, care, research, primary, secondary.
+
+ClinicalTrials.gov B used query.term, pageSize=100, and descending last-update order, with a maximum of 100 records per query. ISRCTN used the public unauthenticated XML API at https://www.isrctn.com/api/query/format/default?q=<query>&limit=<limit> with the default response format [6]. Its API documentation was draft version 0.6, dated August 18, 2023. B returned at most 100 records per query in API order without cursor pagination.
+
+Reference assembly used only the source catalogue, its linked reports, and exact-DOI publications containing target-trial registration statements. Identifiers mentioned solely for comparator studies or other trials were excluded. In the pilot, query execution and reference assembly proceeded in parallel; the reference was fixed on October 20 before the reference assembly accessed method candidates or any reference-to-candidate matching. Candidate matches used title, acronym, investigator, and population/intervention/comparator/outcome agreement. Ambiguous links remained unresolved. Cross-platform registrations were grouped within a family. Each later comparison used its own source-derived reference, with newly resolved links kept separate from the original pilot denominators.
+
+## Outcome coding and sensitivity comparisons
+
+Current posting eligibility required actual primary completion on or before October 19, 2024, positive enrollment, and enrollment type ACTUAL. Posting required hasResults=true at capture. Month-only and year-only dates used their latest possible day. Historical SU2C eligibility retained the completion cutoff and required verified positive enrollment, allowing actual enrollment established in a clinical report. The primary historical outcome was the presence of verified registry summary results or a qualifying main clinical-cohort journal report available by October 19, 2026. This is an outcome-availability measure; a qualifying safety, feasibility, or run-in report could cover only part of a multistage or mixed-cancer trial. Case reports, protocols, secondary analyses, and unreconciled trial identities did not qualify. Conference evidence was analysed separately.
+
+The four original MRC historical labels mapped to 26 reported within 12 months, 15 reported at 12–24 months, 12 reported after 24 months, and five ended more than 24 months without reporting. The latter five were explicit nonreporting labels, rather than missing or unknown classifications. The analysis inherited each source row’s single end date and status. Actual versus estimated date type and the precise registry completion-date field were not supplied by the workbook. Any matching listed NCT retrieved a row in the main comparison; matching all listed NCTs was a sensitivity analysis. Percentage-point differences were calculated before rounding.
+
+Among the 31 eligible MRC rows without an NCT, platform combinations were ISRCTN only (15), other WHO-platform references only (11), ISRCTN plus EudraCT/EUCTR (3), and ISRCTN plus another WHO-platform reference (2). Consequently, selecting rows with any recorded registry identifier retained all 58 rows and left the reporting proportion at 53/58. The five explicitly unreported rows were Excel rows 44, 50, 52, 69, and 142. The multi-NCT rows were MR/P008984/1 and MR/P020593/1; each retained its row-level status rather than contributing separate NCT-level historical outcomes.
+
+## SU2C clinical result evidence
+
+Table S3 lists the historical eligibility set and its result evidence. Registry summary results were confirmed for 13 NCTs: 12 on ClinicalTrials.gov and two on EUCTR, with NCT03336216 represented on both platforms. NCT02179970 had EUCTR results despite having no ClinicalTrials.gov result section. Sixteen NCTs had qualifying journal reports, and nine had evidence in both registry and journal channels. Their union produced the 20/25 primary historical result.
+
+The qualifying clinical-cohort reports included a main safety report for NCT03054298 covering 20 low-dose treated participants, none with pancreatic cancer. NCT03520790 qualified through a 36-participant safety run-in report; the subsequent phase II component was not pursued. These examples show that the historical outcome concerns available results for clinical cohorts within linked trials, rather than complete endpoint or pancreas-specific reporting.
+
+NCT03762590 was historically eligible because its journal report (PMID38320723) documented 601 randomized participants, although the registry enrollment field remained estimated. It was therefore outside the registry-ACTUAL denominator for current posting. NCT01196247 remained outside the primary journal numerator because the candidate paper did not explicitly name the NCT and cohort identity was unresolved.
+
+Historical registry positives were already documented in the October 19 capture. The separate current-posting comparison used the October 20 capture. The exploratory conference sensitivity added NCT03563248 through a publisher-deposited abstract in the Journal of Clinical Oncology supplement (DOI 10.1200/jco.2023.41.4_suppl.719; deposited publication date February 1, 2023). The abstract directly named the NCT and supplied a qualitative clinical conclusion. Accepting this additional dissemination channel produced 21/25 overall and 10/12 in the name-query subset; the primary registry-or-journal outcome remained 20/25 and 9/12.
+
+## Separate MRC primary-paper confirmation
+
+The October 20, 2026 uniform update began with all 141 workbook rows and used the recorded registry trial-end date through October 20, 2024, yielding 98 eligible rows. These included every row in the historical 58-row set. A single PubMed OR query contained the 121 source identifier references from those 98 rows, with at most 800 distinct PMID records fetched. The same route was used regardless of the workbook’s historical reporting classification.
+
+Full-text eligibility required a report of the same registered trial with numerical primary results or the main pilot/feasibility outcomes. Pilot outcomes could concern prespecified feasibility or progression criteria. Protocols and secondary analyses did not qualify. Inaccessible or unreconciled records remained unknown. The fixed candidate set contained 32 articles: 23 had usable JATS text, of which 21 qualified and two were nonprimary; nine candidates were unusable or inaccessible. These article counts concern the larger update, whereas Table S4 concerns the historical 58 source rows.
+
+Within the historical set, 13 source rows had qualifying primary-paper evidence and 45 remained unresolved. Six confirmed rows contained source NCTs; seven were linked through other registries. Core name queries retained two of the six NCT-bearing confirmed rows, and expanded queries retained three. A multi-NCT source row qualified if at least one listed trial had a qualifying paper. This analysis described confirmed-paper visibility after selection. Its 13/58 denominator includes unresolved rows, so it does not estimate the proportion of all trials with publications. The workbook’s historical 53/58 classification was a separate outcome.
+
+## NIHR reference sets and comparison scope
+
+The pilot reference (Table S5) contained 12 selected families: 11 with 14 target registration links and one unresolved. Three families had two platform registrations. Source registration statements established the target links before candidate matching. Strategy B recovered all four known NCTs and all ten known ISRCTNs. The pilot ClinicalTrials.gov name query was a complete global query; the ISRCTN global baseline remained incomplete and its comparative gain was not estimable.
+
+The 24-family extension used the next families in the same fixed ordering. Its source reference contained 19 linked families, five unresolved families, and 21 identifiers, including one EudraCT identifier outside the two-platform comparisons. ClinicalTrials.gov A was global, while ISRCTN A checked membership of the known reference identifiers under the name query. The two comparison scopes were reported separately.
+
+The full-frame source assessment was conducted later and resolved 97 of the 125 families, leaving 28 unresolved. Two source corrections included an ALICAT registration and a transposed ISCRTN prefix in the ToSCA report. The latter concerned family 13/28/02, which had remained unresolved at the original pilot freeze. These corrections entered the later fixed source reference before its corresponding A membership checks. They did not retroactively enlarge the original pilot denominator. The full-frame analysis evaluated name membership of known NCT and ISRCTN links; source-assisted B was not run for all 125 families.
+
+The full-frame family-to-identifier correspondence and Strategy A results are provided in Supplementary_Data_3_NIHR_full125_families.csv and Supplementary_Data_4_NIHR_full125_links.csv. Report DOI metadata corresponds to the official catalogue as accessed on November 13, 2026. Reference identifiers and query results reflect the October 2026 analyses.
+
+## Source references
+
+1. Stand Up To Cancer. SCIENCE PORTFOLIO 2009-2022. Accessed October 19, 2026. https://standuptocancer.org/wp-content/uploads/2022/07/2022-SU2C-Science-Portfoilio-V2-6-29-22.pdf
+
+2. UK Research and Innovation. MRC clinical trials review 2024: dataset. Accessed October 20, 2026. https://www.ukri.org/publications/mrc-clinical-trials-review-2024-dataset/
+
+3. Belgian Health Care Knowledge Centre. KCE Trials: funded trials. Accessed October 21, 2026. https://kce.fgov.be/en/kce-trials/funded-trials
+
+4. National Institute for Health and Care Research. NIHR Funding and Awards. Accessed October 20, 2026. https://fundingawards.nihr.ac.uk/api/projects?search=*&filter=programme:%22Health%20Technology%20Assessment%22&sort=score:desc
+
+5. ClinicalTrials.gov. ClinicalTrials.gov REST API. Accessed October 20, 2026. https://clinicaltrials.gov/api/oas/v2
+
+6. Rendall D. 67 Bricks API Documentation for Springer Nature. Assignment: ISRCTN. Version 0.6. Draft. August 18, 2023. Accessed October 27, 2026. https://bit.ly/ISRCTN_APIdoc_v0_6

@@ -1,0 +1,7 @@
+Analysis and selection,"Reference reported, n/N (%)","Subset reported, n/N (%)","Difference, pp"
+SU2C: source IDs to name query,20/25 (80.0),9/12 (75.0),−5.0
+SU2C: including conference evidence,21/25 (84.0),10/12 (83.3),−0.7
+MRC: eligible rows to any-registry rows,53/58 (91.4),53/58 (91.4),0.0
+MRC: eligible rows to NCT-bearing rows,53/58 (91.4),27/27 (100.0),+8.6
+MRC: NCT-bearing rows to core query,27/27 (100.0),9/9 (100.0),0.0
+MRC: NCT-bearing rows to expanded query,27/27 (100.0),12/12 (100.0),0.0

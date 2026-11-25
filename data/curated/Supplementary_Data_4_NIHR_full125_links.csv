@@ -1,0 +1,105 @@
+﻿family_id,platform,registry_id,source_registration_statement,identifier_normalization,A_known_identifier_hit,source_report_DOI_checked_20261113
+06/43/504,ISRCTN,ISRCTN55310481,Trial registration Trial registration Current Controlled Trials ISRCTN55310481.,,True,https://doi.org/10.3310/hta20890
+09/127/04,ISRCTN,ISRCTN90561114,Trial registration Trial registration Current Controlled Trials ISRCTN90561114.,,False,https://doi.org/10.3310/hta18470
+09/127/53,ISRCTN,ISRCTN00786323,"Trial registration Trial registration This trial is registered as ClinicalTrials.gov: NCT02841527, ISRCTN00786323.",,False,https://doi.org/10.3310/CXSE2951
+09/127/53,ClinicalTrials.gov,NCT02841527,"Trial registration Trial registration This trial is registered as ClinicalTrials.gov: NCT02841527, ISRCTN00786323.",,False,https://doi.org/10.3310/CXSE2951
+09/144/09,ISRCTN,ISRCTN30294119,Trial registration Trial registration Current Controlled Trials ISRCTN30294119 and EudraCT 2012-001884-64.,,True,https://doi.org/10.3310/hta25750
+09/144/50,ISRCTN,ISRCTN33576045,Trial registration Trial registration Current Controlled Trials ISRCTN33576045.,,True,https://doi.org/10.3310/hta23450
+09/165/01,ISRCTN,ISRCTN57937389,Trial registration Trial registration Current Controlled Trials ISRCTN57937389.,,True,https://doi.org/10.3310/hta22210
+09/33/02,ISRCTN,ISRCTN07622709,Trial registration Trial registration Current Controlled Trials ISRCTN07622709.,,True,https://doi.org/10.3310/hta23190
+10/103/01,ISRCTN,ISRCTN90916365,Trial registration Trial registration Current Controlled Trials ISRCTN90916365.,,True,https://doi.org/10.3310/hta22170
+10/104/13,ClinicalTrials.gov,NCT01680276,Trial registration Trial registration This study is registered as NCT01680276.,,False,https://doi.org/10.3310/hta22150
+10/104/16,ISRCTN,ISRCTN96895428,Trial registration Trial registration Current Controlled Trials ISRCTN96895428.,,True,https://doi.org/10.3310/hta22100
+10/104/20,ISRCTN,ISRCTN38126962,Trial registration Trial registration Current Controlled Trials ISRCTN38126962.,,True,https://doi.org/10.3310/hta21470
+10/104/24,ISRCTN,ISRCTN47823388,Trial registration Trial registration Current Controlled Trials ISRCTN47823388.,,True,https://doi.org/10.3310/hta22480
+10/104/30,ISRCTN,ISRCTN49474281,Trial registration Trial registration Current Controlled Trials ISRCTN49474281.,,False,https://doi.org/10.3310/hta24170
+10/104/34,ISRCTN,ISRCTN09753005,Trial registration Trial registration Current Controlled Trials ISRCTN09753005.,,True,https://doi.org/10.3310/hta22530
+10/104/501,ISRCTN,ISRCTN47998710,Trial registration Trial registration Current Controlled Trials ISRCTN47998710.,,True,https://doi.org/10.3310/hta25700
+10/131/01,ISRCTN,ISRCTN18649610,Trial registration Trial registration Current Controlled Trials ISRCTN18649610.,,True,https://doi.org/10.3310/hta20910
+10/135/02,ISRCTN,ISRCTN12421382,Study registration Study registration This study is registered as ISRCTN12421382.,,True,https://doi.org/10.3310/ADWP8001
+10/137/01,ISRCTN,ISRCTN92289221,Trial registration Trial registration This trial is registered as ISRCTN92289221.,,True,https://doi.org/10.3310/WUZW9042
+10/143/01,ISRCTN,ISRCTN15441965,Trial registration Trial registration Current Controlled Trials ISRCTN15441965.,,True,https://doi.org/10.3310/hta22700
+10/145/01,ISRCTN,ISRCTN37913976,International Standard Randomised Controlled Trial Number (ISRCTN) 37913976,ISRCTN prefix and digits normalized; the report also lists NCT01817257,True,https://doi.org/10.3310/hta19830
+10/145/01,ClinicalTrials.gov,NCT01817257,Study registration Study registration This study is registered as clinical trials.gov number NCT01817257 and International Standard Randomised Controlled Trial Number (ISRCTN) 37913976.,,True,https://doi.org/10.3310/hta19830
+10/32/02,ISRCTN,ISRCTN98538934,Trial registration Trial registration Current Controlled Trials ISRCTN98538934.,,True,https://doi.org/10.3310/hta22370
+10/37/01,ISRCTN,ISRCTN45203373,Trial registration Trial registration Current Controlled Trials ISRCTN45203373.,,True,https://doi.org/10.3310/hta24240
+10/46/01,ISRCTN,ISRCTN95809946,Trial registration Trial registration Current Controlled Trials ISRCTN95809946.,,True,https://doi.org/10.3310/hta23030
+10/50/14,ISRCTN,ISRCTN27473954,Trial registration Trial registration Current Controlled Trials ISRCTN27473954.,,True,https://doi.org/10.3310/hta21460
+10/57/14,ISRCTN,ISRCTN88261002,Trial registration Trial registration Current Controlled Trials ISRCTN88261002.,,True,https://doi.org/10.3310/hta22740
+10/57/20,ISRCTN,ISRCTN33756652,Trial registration Trial registration Current Controlled Trials ISRCTN33756652 and UKCRN Portfolio ID 11783.,,True,https://doi.org/10.3310/hta22730
+10/57/21,ISRCTN,ISRCTN48152791,Trial registration Trial registration Current Controlled Trials ISRCTN48152791.,,True,https://doi.org/10.3310/hta23360
+10/57/23,ISRCTN,ISRCTN98009168,Trial registration Trial registration Current Controlled Trials ISRCTN98009168.,,True,https://doi.org/10.3310/hta24610
+10/57/24,ISRCTN,ISRCTN65792154,Trial registration Trial registration Current Controlled Trials ISRCTN65792154.,,True,https://doi.org/10.3310/hta23160
+10/57/32,ISRCTN,ISRCTN66118656,Trial registration Trial registration Current Controlled Trials ISRCTN66118656.,,True,https://doi.org/10.3310/hta22020
+10/57/55,ISRCTN,ISRCTN24647151,Trial registration Trial registration Current Controlled Trials ISRCTN24647151.,,True,https://doi.org/10.3310/hta24550
+10/62/03,ISRCTN,ISRCTN84864870,Trial registration Trial registration Current Controlled Trials ISRCTN84864870.,,True,https://doi.org/10.3310/hta23690
+10/71/01,ISRCTN,ISRCTN09486651,Trial registration Trial registration Current Controlled Trials ISRCTN09486651 and EudraCT 2011-005271-16. The systematic review is registered as PROSPERO CRD42018112908.,,True,https://doi.org/10.3310/hta24270
+10/93/04,ISRCTN,ISRCTN02304709,Trial registration Trial registration Current Controlled Trials ISRCTN02304709.,,True,https://doi.org/10.3310/hta20570
+11/01/04,ISRCTN,ISRCTN11225767,"Trial registration Trial registration Current Controlled Trials ISRCTN11225767, ClinicalTrials.gov NCT01658124 and EudraCT 2012-003192-19.",,True,https://doi.org/10.3310/hta25580
+11/01/04,ClinicalTrials.gov,NCT01658124,"Trial registration Trial registration Current Controlled Trials ISRCTN11225767, ClinicalTrials.gov NCT01658124 and EudraCT 2012-003192-19.",,False,https://doi.org/10.3310/hta25580
+11/106/01,ISRCTN,ISRCTN49212975,Trial registration Trial registration This trial is registered as ISRCTN49212975.,,True,https://doi.org/10.3310/TBFZ0277
+11/107/01,ISRCTN,ISRCTN31161700,Trial registration Trial registration Current Controlled Trials ISRCTN31161700.,,True,https://doi.org/10.3310/hta21810
+11/129/148,ISRCTN,ISRCTN12127581,"Trial registration Trial registration EudraCT 2014-002335-34, ClinicalTrials.gov NCT02398994 and Current Controlled Trials ISRCTN12127581.",,True,https://doi.org/10.3310/hta21310
+11/129/148,ClinicalTrials.gov,NCT02398994,"Trial registration Trial registration EudraCT 2014-002335-34, ClinicalTrials.gov NCT02398994 and Current Controlled Trials ISRCTN12127581.",,False,https://doi.org/10.3310/hta21310
+11/129/187,ISRCTN,ISRCTN32729817,Trial registration Trial registration Current Controlled Trials. Current Controlled Trials ISRCTN32729817 and EudraCT 2013-002951-14.,,True,https://doi.org/10.3310/hta24470
+11/129/61,ISRCTN,ISRCTN42856343,Trial registration Trial registration Current Controlled Trials ISRCTN42856343.,,True,https://doi.org/10.3310/hta20840
+11/129/76,ISRCTN,ISRCTN06653773,Trial registration Trial registration Current Controlled Trials ISRCTN06653773; EudraCT number 2012-000090-23.,,True,https://doi.org/10.3310/hta22630
+11/142/02,ISRCTN,ISRCTN84013636,Trial registration Trial registration This trial is registered as ISRCTN84013636.,,True,https://doi.org/10.3310/PLPU1526
+11/148/01,ISRCTN,ISRCTN79705874,Trial registration Trial registration Current Controlled Trials ISRCTN79705874.,,False,https://doi.org/10.3310/hta21350
+11/15/04,ISRCTN,ISRCTN21027481,Trial registration Trial registration Current Controlled Trials ISRCTN21027481.,,True,https://doi.org/10.3310/hta23100
+11/15/13,ISRCTN,ISRCTN82288852,Trial registration Trial registration Current Controlled Trials ISRCTN82288852.,,True,https://doi.org/10.3310/hta24160
+11/31/02,ISRCTN,ISRCTN12191542,Trial registration Trial registration EudraCT 2014-003187-20 and Current Controlled Trials ISRCTN12191542.,,True,https://doi.org/10.3310/hta21740
+11/58/15,ISRCTN,ISRCTN27066620,Trial registration Trial registration Current Controlled Trials ISRCTN27066620.,,True,https://doi.org/10.3310/hta23370
+11/60/01,ISRCTN,ISRCTN93446265,Trial registration Trial registration Current Controlled Trials ISRCTN93446265.,,True,https://doi.org/10.3310/hta21150
+11/65/01,ISRCTN,ISRCTN77261365,Trial registration Trial registration Current Controlled Trials ISRCTN77261365.,,True,https://doi.org/10.3310/hta21160
+11/72/01,ISRCTN,ISRCTN67145101,Trial registration Trial registration Current Controlled Trials ISRCTN67145101 and EudraCT 2013-002556-32.,,True,https://doi.org/10.3310/hta22240
+11/92/03,ISRCTN,ISRCTN13623634,Trial registration Trial registration Current Controlled Trials ISRCTN13623634.,,True,https://doi.org/10.3310/hta25380
+11/94/01,ISRCTN,ISRCTN53303171,Trial registration Trial registration Current Controlled Trials ISRCTN53303171.,,True,https://doi.org/10.3310/hta23580
+12/01/04,ISRCTN,ISRCTN38578686,Trial registration Trial registration Current Controlled Trials ISRCTN38578686 and EudraCT number 2013-004249-17.,,True,https://doi.org/10.3310/hta25030
+12/01/16,ISRCTN,ISRCTN98129255,"Trial registration Trial registration The trial is registered with the Australian New Zealand Clinical Trials Registry number ACTRN12606000185561, Current Controlled Trials ISRCTN98129255 and ISRCTN98129255.",,True,https://doi.org/10.3310/hta21540
+12/127/10,ISRCTN,ISRCTN51783227,Trial registration Trial registration Current Controlled Trials ISRCTN51783227.,,True,https://doi.org/10.3310/hta23200
+12/127/134,ISRCTN,ISRCTN22567894,Trial registration Trial registration Current Controlled Trials ISRCTN22567894 and European Clinical Trials Database EudraCT number 2014-002188-13.,,True,https://doi.org/10.3310/hta24580
+12/127/157,ISRCTN,ISRCTN93264234,Trial registration Trial registration This trial was registered as ISRCTN93264234.,,True,https://doi.org/10.3310/BTSA6148
+12/140/01,ISRCTN,ISRCTN56164274,Trial registration Trial registration This trial is registered as ISRCTN56164274.,,True,https://doi.org/10.3310/SLPT4675
+12/145/04,ISRCTN,ISRCTN34483199,Trial registration Trial registration Current Controlled Trials ISRCTN34483199.,,True,https://doi.org/10.3310/hta22360
+12/146/06,ISRCTN,ISRCTN55284102,Trial registration Trial registration This trial is registered as ISRCTN55284102.,,True,https://doi.org/10.3310/YKUR3660
+12/167/102,ISRCTN,ISRCTN08256118,Trial registration Trial registration This trial is registered as ISRCTN08256118.,,True,https://doi.org/10.3310/VHOH9034
+12/167/135,ISRCTN,ISRCTN60477608,Trial registration Trial registration Current Controlled Trials ISRCTN60477608.,,True,https://doi.org/10.3310/hta23430
+12/167/26,ISRCTN,ISRCTN14163439,"Trial registration Trial registration Current Controlled Trials ISRCTN14163439, EudraCT 2014-002348-42 and Integrated Research Application System (IRAS) 158326.",,True,https://doi.org/10.3310/hta24330
+12/167/95,ISRCTN,ISRCTN78923965,Trial registration Trial registration Current Controlled Trials ISRCTN78923965.,,True,https://doi.org/10.3310/hta21590
+12/189/06,ISRCTN,ISRCTN34701576,Trial registration Trial registration Current Controlled Trials ISRCTN34701576.,,True,https://doi.org/10.3310/hta22300
+12/194/01,ISRCTN,ISRCTN14573230,Trial registration Trial registration Current Controlled Trials ISRCTN14573230.,,True,https://doi.org/10.3310/hta24140
+12/201/02,ISRCTN,ISRCTN14569274,Trial registration Trial registration Current Controlled Trials ISRCTN14569274.,,True,https://doi.org/10.3310/hta21600
+12/201/09,ISRCTN,ISRCTN75449581,Trial registration Trial registration Current Controlled Trials ISRCTN75449581.,,True,https://doi.org/10.3310/hta24490
+12/201/10,ISRCTN,ISRCTN04820368,Trial registration Trial registration Current Controlled Trials ISRCTN04820368 and EudraCT 2014-002751-25.,,True,https://doi.org/10.3310/hta25240
+12/26/01,ISRCTN,ISRCTN05681227,Trial registration Trial registration Current Controlled Trials ISRCTN05681227 and ClinicalTrials.gov NCT02325544.,,True,https://doi.org/10.3310/hta25430
+12/26/01,ClinicalTrials.gov,NCT02325544,Trial registration Trial registration Current Controlled Trials ISRCTN05681227 and ClinicalTrials.gov NCT02325544.,,False,https://doi.org/10.3310/hta25430
+12/33/28,ISRCTN,ISRCTN46346208,Trial registration Trial registration Current Controlled Trials ISRCTN46346208.,,True,https://doi.org/10.3310/hta23290
+12/35/07,ISRCTN,ISRCTN16077538,Trial registration Trial registration Current Controlled Trials ISRCTN16077538.,,True,https://doi.org/10.3310/hta25180
+12/35/15,ISRCTN,ISRCTN00788389,Trial registration Trial registration Current Controlled Trials ISRCTN00788389.,,True,https://doi.org/10.3310/hta24410
+12/35/27,ISRCTN,ISRCTN60672307,Trial registration Trial registration This trial is registered as ISRCTN60672307 and ClinicalTrials.gov NCT02128555.,,True,https://doi.org/10.3310/PTYJ1146
+12/35/27,ClinicalTrials.gov,NCT02128555,Trial registration Trial registration This trial is registered as ISRCTN60672307 and ClinicalTrials.gov NCT02128555.,,True,https://doi.org/10.3310/PTYJ1146
+12/35/32,ISRCTN,ISRCTN48569216,Trial registration Trial registration Current Controlled Trials ISRCTN48569216.,,True,https://doi.org/10.3310/hta22160
+12/35/45,ISRCTN,ISRCTN27728689,Study registration Study registration Current Controlled Trials ISRCTN27728689.,,True,https://doi.org/10.3310/YTFV4524
+12/35/54,ISRCTN,ISRCTN99760303,Trial registration Trial registration Current Controlled Trials ISRCTN99760303.,,True,https://doi.org/10.3310/hta22520
+12/35/57,ISRCTN,ISRCTN87370545,Trial registration Trial registration This trial is registered as ISRCTN87370545.,,True,https://doi.org/10.3310/GJPH0512
+12/35/64,ISRCTN,ISRCTN30012492,"Trial registration Trial registration This trial is registered as ISRCTN 30012492, EudraCT number 2014-002193-37, REC 14/LNO/1428, IRAS 156358, Local R&D registration CHAD 1031.",,True,https://doi.org/10.3310/GNBJ1387
+12/67/12,ISRCTN,ISRCTN21528841,Trial registration Trial registration This trial is registered as ISRCTN21528841.,,True,https://doi.org/10.3310/RHDN9613
+13/04/03,ISRCTN,ISRCTN13472721,Trial registration Trial registration This trial is registered as ISRCTN13472721.,,True,https://doi.org/10.3310/THBQ1793
+13/04/22,ISRCTN,ISRCTN98835694,Trial registration Trial registration Current Controlled Trials ISRCTN98835694 and ClinicalTrials.gov NCT02235181.,,True,https://doi.org/10.3310/hta25440
+13/04/22,ClinicalTrials.gov,NCT02235181,Trial registration Trial registration Current Controlled Trials ISRCTN98835694 and ClinicalTrials.gov NCT02235181.,,False,https://doi.org/10.3310/hta25440
+13/04/30,ISRCTN,ISRCTN83290762,Trial registration Trial registration Current Controlled Trials ISRCTN83290762.,,False,https://doi.org/10.3310/hta24220
+13/04/46,ISRCTN,ISRCTN77602616,Trial registration Trial registration Current Controlled Trials ISRCTN77602616.,,True,https://doi.org/10.3310/hta25060
+13/115/82,ISRCTN,ISRCTN61225414,Trial registration Trial registration This trial is registered as ISRCTN61225414.,,True,https://doi.org/10.3310/AEFU1104
+13/14/01,ISRCTN,ISRCTN12715175,Trial registration Trial registration Current Controlled Trials ISRCTN12715175.,,True,https://doi.org/10.3310/hta23470
+13/15/02,ISRCTN,ISRCTN80782810,Trial registration Trial registration This trial is registered as ISRCTN80782810.,,True,https://doi.org/10.3310/XWZN4832
+13/152/02,ISRCTN,ISRCTN98970319,Trial registration Trial registration This trial is registered as ISRCTN98970319.,,True,https://doi.org/10.3310/WFRE6844
+13/25/20,ISRCTN,ISRCTN15644451,Trial registration Trial registration Current Controlled Trials ISRCTN15644451.,,True,https://doi.org/10.3310/hta24630
+13/26/01,ISRCTN,ISRCTN48804508,Trial registration Trial registration Current Controlled Trials ISRCTN48804508.,,True,https://doi.org/10.3310/hta24710
+13/28/02,ISRCTN,ISRCTN14845583,Trial registration Current Controlled Trials ISCRTN14845583.,Prefix normalized from ISCRTN to ISRCTN,True,https://doi.org/10.3310/hta21450
+13/88/10,ISRCTN,ISRCTN95232781,Trial registration Trial registration Current Controlled Trials ISRCTN95232781.,,True,https://doi.org/10.3310/hta23110
+13/88/13,ISRCTN,ISRCTN09599764,Trial registration Trial registration Current Controlled Trials ISRCTN09599764.,,False,https://doi.org/10.3310/hta23340
+14/08/45,ISRCTN,ISRCTN23800982,Trial registration Trial registration This trial is registered as ISRCTN23800982.,,True,https://doi.org/10.3310/JNZT9406
+14/140/61,ISRCTN,ISRCTN13911492,Trial registration Trial registration Current Controlled Trials ISRCTN13911492.,,True,https://doi.org/10.3310/hta24690
+14/140/80,ISRCTN,ISRCTN17993825,Trial registration Trial registration This trial is registered as ISRCTN17993825.,,True,https://doi.org/10.3310/KHHA0861
+14/49/34,ISRCTN,ISRCTN72019945,Trial registration Trial registration Current Controlled Trials ISRCTN72019945.,,True,https://doi.org/10.3310/hta24320

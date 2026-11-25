@@ -1,0 +1,57 @@
+{
+  "inputs": [
+    {
+      "path": "data/curated/Supplementary_Data_1_SU2C_historical_evidence.csv",
+      "sha256": "65072a638a3b9277c67a1307c600121ec2b02d6df5b275b5c95bdbd3f0cdf243"
+    },
+    {
+      "path": "data/curated/Supplementary_Data_2_MRC_paper_evidence.csv",
+      "sha256": "467c858638c7bf2b02448ac5b52dea509c5dde802e8f4f16ca79d6464c71be21"
+    },
+    {
+      "path": "data/curated/Supplementary_Data_3_NIHR_full125_families.csv",
+      "sha256": "32cd9d81d4079abf1d1d43f50e2a72b1731983291fb328b0edf21bd61a47577b"
+    },
+    {
+      "path": "data/curated/Supplementary_Data_4_NIHR_full125_links.csv",
+      "sha256": "d45990d838a15e9a412dcd10c753f9a8efb727614648f3a0168489d0e2d08fcf"
+    },
+    {
+      "path": "data/curated/Supplementary_Data_5_SU2C_project_registration_links.csv",
+      "sha256": "f47c1f63d2aabd243653a752feb5b7e3923359823b175c0176e5e36c0ee840ba"
+    },
+    {
+      "path": "data/curated/Supplementary_Data_6_MRC_historical_source_rows.csv",
+      "sha256": "d6ff4e0be0b359d909a8e7ec001b61c108fca58931dba87e0f58a797cf646e88"
+    },
+    {
+      "path": "data/curated/mrc_row_classification.csv",
+      "sha256": "9b23fd7f664ec3c0c7ab46e661a79bdc3c5c78f715679717d10f38d7f2a1820c"
+    },
+    {
+      "path": "data/curated/nihr_pilot_12_family_reference_links.csv",
+      "sha256": "6e03ad9646bd03f034db232d69de01b2e15ad7bef28a7853c8d367362d2ba7bd"
+    },
+    {
+      "path": "data/aggregate/figure1_source_data.csv",
+      "sha256": "99383798caeaca888031cdd42f8880284cb784b68a5f6d9ebdbff7e526beb7ec"
+    },
+    {
+      "path": "data/aggregate/figure2_source_data.csv",
+      "sha256": "97acf272ff5542f4c99004febdf9a2f15f16c05478ee8f60bd0f67edecd4e7f3"
+    },
+    {
+      "path": "data/aggregate/nihr_selected_samples.json",
+      "sha256": "981ce6db873283c9e01ff886bb867868f5a026b5dd4b3f1ba5d8ebc43cab8f5a"
+    },
+    {
+      "path": "expected/manuscript_tables.json",
+      "sha256": "9ce92b7cd4edc3a53fa760523d84e50fbc1002729467001287e220ffb83130ee"
+    },
+    {
+      "path": "expected/supplement_tables.json",
+      "sha256": "8b38c0e1efdfb8bb32eba7e55e0b11ef34266fc33bef5083d14bd59d155fbb95"
+    }
+  ],
+  "notes": "Curated source extracts and aggregate comparison inputs used by reproduce.py."
+}

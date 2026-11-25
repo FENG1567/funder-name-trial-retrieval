@@ -1,0 +1,7 @@
+comparison,reference_n,reference_N,subset_n,subset_N,difference_pp
+SU2C historical,20,25,9,12,-5.0
+SU2C conference sensitivity,21,25,10,12,-0.6666666666666714
+MRC any registry,53,58,53,58,0.0
+MRC NCT-bearing,53,58,27,27,8.620689655172413
+MRC core,27,27,9,9,0.0
+MRC expanded,27,27,12,12,0.0

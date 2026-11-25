@@ -1,0 +1,250 @@
+[
+  {
+    "number": 1,
+    "title": "Public funding sources and analysis units",
+    "columns": [
+      "Source",
+      "Source records",
+      "Analysis unit",
+      "Use in this study"
+    ],
+    "widths": [
+      55,
+      200,
+      105,
+      138
+    ],
+    "rows": [
+      [
+        "SU2C",
+        "11 pancreas-focused projects; 33 linked NCTs",
+        "Unique NCT",
+        "Current posting and historical registry or journal reporting"
+      ],
+      [
+        "MRC",
+        "141 workbook rows; 63 rows with 65 unique NCTs",
+        "NCT for current posting; row for historical reporting",
+        "Current posting; historical workbook classification; separate paper confirmation"
+      ],
+      [
+        "KCE",
+        "78 programme-code entries from 79 page rows: 61 NCT-linked; 1 ISRCTN-only; 3 other-registry; 13 unresolved",
+        "Source entry; unique NCT for posting",
+        "Current posting and name-query comparisons"
+      ],
+      [
+        "NIHR HTA",
+        "125 title-screened families; 97 linked; 28 unresolved",
+        "Trial family and platform identifier",
+        "Name-query coverage and selected-sample source-assisted retrieval"
+      ]
+    ],
+    "notes": [
+      "HTA, Health Technology Assessment. KCE, Belgian Health Care Knowledge Centre. MRC, Medical Research Council. NCT, ClinicalTrials.gov identifier. NIHR, National Institute for Health and Care Research. SU2C, Stand Up To Cancer. Registrations and trial families are distinct units."
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Current registry posting and coverage by funder-name query",
+    "columns": [
+      "Source and query",
+      "Known NCTs retrieved, n/N",
+      "Reference posting, n/N (%)",
+      "Subset posting, n/N (%)",
+      "Difference, pp"
+    ],
+    "widths": [
+      138,
+      79,
+      95,
+      111,
+      75
+    ],
+    "rows": [
+      [
+        "SU2C, core",
+        "13/33",
+        "12/24 (50.0)",
+        "5/11 (45.5)",
+        "−4.5"
+      ],
+      [
+        "SU2C, expanded aliases",
+        "13/33",
+        "12/24 (50.0)",
+        "5/11 (45.5)",
+        "−4.5"
+      ],
+      [
+        "MRC, core",
+        "27/65",
+        "4/34 (11.8)",
+        "1/11 (9.1)",
+        "−2.7"
+      ],
+      [
+        "MRC, expanded aliases",
+        "31/65",
+        "4/34 (11.8)",
+        "2/15 (13.3)",
+        "+1.6"
+      ],
+      [
+        "KCE, official full name",
+        "1/61",
+        "6/27 (22.2)",
+        "NE",
+        "NE"
+      ],
+      [
+        "KCE, official aliases",
+        "10/61",
+        "6/27 (22.2)",
+        "0/4 (0.0)",
+        "−22.2"
+      ],
+      [
+        "KCE, aliases + documented variant",
+        "27/61",
+        "6/27 (22.2)",
+        "3/10 (30.0)",
+        "+7.8"
+      ]
+    ],
+    "notes": [
+      "Differences are eligible retrieved-subset minus eligible source-reference proportions. NE, not estimable because no eligible NCT was retrieved. Pp, percentage points. Queries within each source overlap. The KCE variant was added after initial results and is exploratory. Coverage uses all known source NCTs. Posting uses eligible NCTs."
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Historical reporting before and after source and name selection",
+    "columns": [
+      "Analysis and selection",
+      "Reference reported, n/N (%)",
+      "Subset reported, n/N (%)",
+      "Difference, pp"
+    ],
+    "widths": [
+      175,
+      122,
+      122,
+      79
+    ],
+    "rows": [
+      [
+        "SU2C: source IDs to name query",
+        "20/25 (80.0)",
+        "9/12 (75.0)",
+        "−5.0"
+      ],
+      [
+        "SU2C: including conference evidence",
+        "21/25 (84.0)",
+        "10/12 (83.3)",
+        "−0.7"
+      ],
+      [
+        "MRC: eligible rows to any-registry rows",
+        "53/58 (91.4)",
+        "53/58 (91.4)",
+        "0.0"
+      ],
+      [
+        "MRC: eligible rows to NCT-bearing rows",
+        "53/58 (91.4)",
+        "27/27 (100.0)",
+        "+8.6"
+      ],
+      [
+        "MRC: NCT-bearing rows to core query",
+        "27/27 (100.0)",
+        "9/9 (100.0)",
+        "0.0"
+      ],
+      [
+        "MRC: NCT-bearing rows to expanded query",
+        "27/27 (100.0)",
+        "12/12 (100.0)",
+        "0.0"
+      ]
+    ],
+    "notes": [
+      "SU2C counts eligible NCTs with registry results or primary clinical-cohort journal reports. Conference evidence is a sensitivity analysis. MRC counts workbook rows using historical classifications. Differences are subset minus the reference stated in each row. Name-query subsets overlap. pp, percentage points."
+    ]
+  },
+  {
+    "number": 4,
+    "title": "NIHR name queries and source-assisted retrieval of known identifiers",
+    "columns": [
+      "Sample and platform",
+      "Known IDs, N",
+      "A search scope",
+      "A names, n/N",
+      "B award or title, n/N"
+    ],
+    "widths": [
+      117,
+      51,
+      122,
+      90,
+      118
+    ],
+    "rows": [
+      {
+        "section": "Pilot: 12 families; 11 linked; 14 IDs; 3 dual registrations; 1 unresolved"
+      },
+      [
+        "ClinicalTrials.gov",
+        "4",
+        "Global, complete",
+        "1/4",
+        "4/4"
+      ],
+      [
+        "ISRCTN",
+        "10",
+        "Global, incomplete export",
+        "Not estimable",
+        "10/10"
+      ],
+      {
+        "section": "Extension: 24 families; 19 linked; 21 IDs, including 1 EudraCT ID"
+      },
+      [
+        "ClinicalTrials.gov",
+        "1",
+        "Global, complete",
+        "0/1",
+        "1/1"
+      ],
+      [
+        "ISRCTN",
+        "19",
+        "Known-ID restricted",
+        "18/19",
+        "19/19"
+      ],
+      {
+        "section": "All 125 families: 97 linked; 28 unresolved"
+      },
+      [
+        "ClinicalTrials.gov",
+        "8",
+        "Known-ID restricted",
+        "2/8",
+        "Not evaluated"
+      ],
+      [
+        "ISRCTN",
+        "96",
+        "Known-ID restricted",
+        "90/96",
+        "Not evaluated"
+      ]
+    ],
+    "notes": [
+      "Pilot ISRCTN A was not estimable because its export was incomplete. EudraCT was outside the platform-specific comparisons. Registrations and trial families are distinct units."
+    ]
+  }
+]

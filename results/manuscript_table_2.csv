@@ -1,0 +1,8 @@
+Source and query,"Known NCTs retrieved, n/N","Reference posting, n/N (%)","Subset posting, n/N (%)","Difference, pp"
+"SU2C, core",13/33,12/24 (50.0),5/11 (45.5),−4.5
+"SU2C, expanded aliases",13/33,12/24 (50.0),5/11 (45.5),−4.5
+"MRC, core",27/65,4/34 (11.8),1/11 (9.1),−2.7
+"MRC, expanded aliases",31/65,4/34 (11.8),2/15 (13.3),+1.6
+"KCE, official full name",1/61,6/27 (22.2),NE,NE
+"KCE, official aliases",10/61,6/27 (22.2),0/4 (0.0),−22.2
+"KCE, aliases + documented variant",27/61,6/27 (22.2),3/10 (30.0),+7.8

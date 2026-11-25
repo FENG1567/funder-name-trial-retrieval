@@ -1,0 +1,462 @@
+[
+  {
+    "number": "S1",
+    "title": "Formation and eligibility of the evaluated source sets",
+    "columns": [
+      "Source",
+      "Source formation",
+      "Posting eligibility",
+      "Historical or retrieval analysis"
+    ],
+    "widths": [
+      50,
+      195,
+      92,
+      161
+    ],
+    "rows": [
+      [
+        "SU2C",
+        "27 screened entries: 11 included, 3 uncertain, 13 excluded; 33 distinct linked NCTs",
+        "24/33 eligible; 9 excluded",
+        "25/33 historically eligible; 8 outside eligibility"
+      ],
+      [
+        "MRC",
+        "141 rows; 63 NCT-bearing rows; 65 unique NCTs",
+        "34/65 eligible; 31 excluded",
+        "58/141 eligible rows; 83 ended after cutoff; 27/58 rows NCT-bearing"
+      ],
+      [
+        "KCE",
+        "79 page rows; 78 programme-code entries; 61 unique validated NCTs",
+        "27/61 eligible; 34 excluded",
+        "Other source entries: 1 ISRCTN-only, 3 other registries, 13 unresolved"
+      ],
+      [
+        "NIHR HTA",
+        "350 awards: 126 clear trial titles, 42 nontrial, 182 unclear; 1 prior-exposure holdout",
+        "Not a posting analysis",
+        "125 evaluated families; pilot 12, extension 24; 97 linked and 28 unresolved in full frame"
+      ]
+    ],
+    "notes": [
+      "Posting eligibility counts use unique NCTs. MRC historical eligibility uses workbook rows. NIHR counts trial families separately from registry identifiers. Cutoffs and capture dates are specified in the main Methods."
+    ]
+  },
+  {
+    "number": "S2",
+    "title": "MRC historical source classification mapping",
+    "columns": [
+      "Original Publication Status (01/12/2024)",
+      "Rows, n",
+      "Analysis category"
+    ],
+    "widths": [
+      300,
+      70,
+      128
+    ],
+    "rows": [
+      [
+        "reported within 12 months",
+        "26",
+        "Reported"
+      ],
+      [
+        "reported 12 to 24 months",
+        "15",
+        "Reported"
+      ],
+      [
+        "reported after 24 months",
+        "12",
+        "Reported"
+      ],
+      [
+        "ended > 24 months, not reported",
+        "5",
+        "Unreported"
+      ]
+    ],
+    "notes": [
+      "The denominator is the 58 source rows ending by December 31, 2022. There were no missing or unknown status labels in this eligible set."
+    ]
+  },
+  {
+    "number": "S3",
+    "title": "SU2C historical eligibility set and qualifying result evidence",
+    "columns": [
+      "NCT",
+      "Name hit",
+      "Registry summary results",
+      "Qualifying journal report and public date",
+      "Clinical scope or unresolved evidence"
+    ],
+    "widths": [
+      76,
+      40,
+      89,
+      110,
+      183
+    ],
+    "rows": [
+      [
+        "NCT00844649",
+        "No",
+        "ClinicalTrials.gov",
+        "PMID 24131140; 2013-10-16",
+        "Metastatic pancreatic adenocarcinoma; randomized phase III MPACT comparison."
+      ],
+      [
+        "NCT01196247",
+        "Yes",
+        "Not confirmed",
+        "Not confirmed (candidate PMID 29299351 excluded)",
+        "Previously treated metastatic pancreatic cancer; paper reports 49 accrued and 35 evaluable patients."
+      ],
+      [
+        "NCT01506973",
+        "No",
+        "Not confirmed",
+        "PMID 31120501; 2019-05-23",
+        "Advanced pancreatic cancer; randomized gemcitabine/nab-paclitaxel with or without hydroxychloroquine."
+      ],
+      [
+        "NCT02030860",
+        "No",
+        "Not confirmed",
+        "Not confirmed",
+        "ASCO 2015 presentation is cited in a 2018 review; no primary abstract body or full clinical-results paper was confirmed."
+      ],
+      [
+        "NCT02048384",
+        "Yes",
+        "Not confirmed",
+        "PMID 32523648; 2020-05-26",
+        "Metastatic pancreatic adenocarcinoma after induction chemotherapy; metformin with or without rapamycin maintenance; 22 treated patients."
+      ],
+      [
+        "NCT02179970",
+        "Yes",
+        "EUCTR",
+        "PMID 33127761; 2020-10-30",
+        "CXCR4 inhibition with PD-1 blockade; pancreatic and colorectal cohorts. Do not infer a pancreas-only effect from the mixed-cohort report."
+      ],
+      [
+        "NCT02216409",
+        "No",
+        "Not confirmed",
+        "PMID 30811285; 2019-02-27",
+        "Hu5F9-G4 anti-CD47 phase I in advanced solid tumors; 62 treated overall, with multiple tumor types including pancreatic cancer."
+      ],
+      [
+        "NCT02243371",
+        "Yes",
+        "ClinicalTrials.gov",
+        "PMID 32273276; 2020-04-09",
+        "Randomized phase II comparison of cyclophosphamide/GVAX pancreas followed by CRS-207 with or without nivolumab in previously treated metastatic pancreatic cancer; 93 patients were treated and the primary overall-survival endpoint was not met."
+      ],
+      [
+        "NCT02562898",
+        "Yes",
+        "ClinicalTrials.gov",
+        "PMID 36593070; 2023 (year)",
+        "Ibrutinib in metastatic pancreatic ductal adenocarcinoma; clinical safety and immune-cell modulation."
+      ],
+      [
+        "NCT02588443",
+        "No",
+        "Not confirmed",
+        "PMID 34112709; 2021-06-10",
+        "Resectable pancreatic cancer treated with neoadjuvant selicrelumab/CD40 agonist; 16 patients initiated study treatment; report addresses feasibility, safety, and tumor-microenvironment changes."
+      ],
+      [
+        "NCT02754726",
+        "No",
+        "ClinicalTrials.gov",
+        "Not confirmed",
+        "Conference abstracts were located; a full journal report was not confirmed in the bounded search."
+      ],
+      [
+        "NCT03054298",
+        "No",
+        "ClinicalTrials.gov",
+        "PMID 41566776; 2026-01-21",
+        "Mesothelin CAR-T trial across tumor types. The 2026 cohort paper reports 20 low-dose patients: 1 with lung adenocarcinoma, 5 with mesothelioma, and 14 with ovarian cancer; no pancreatic patients are reported. Registry counts are 65 consented, 34 ineligible, 31 eligible, 30 assigned, and primary-outcome denominators of 22; a separate high-dose cohort of three is described."
+      ],
+      [
+        "NCT03117920",
+        "Yes",
+        "Not confirmed",
+        "Not confirmed",
+        "Possible MinPAC conference/identifier lead; no primary clinical outcomes report was confirmed."
+      ],
+      [
+        "NCT03300921",
+        "No",
+        "Not confirmed",
+        "Not confirmed",
+        "No primary journal report was confirmed in the bounded searches."
+      ],
+      [
+        "NCT03331562",
+        "Yes",
+        "ClinicalTrials.gov",
+        "PMID 39846984; 2025-01-23",
+        "Metastatic pancreatic cancer after maximal cytoreduction; pembrolizumab with or without paricalcitol."
+      ],
+      [
+        "NCT03336216",
+        "No",
+        "ClinicalTrials.gov; EUCTR",
+        "Not confirmed",
+        "ClinicalTrials.gov and EudraCT results records; no primary journal report confirmed in the bounded search."
+      ],
+      [
+        "NCT03410030",
+        "Yes",
+        "ClinicalTrials.gov",
+        "PMID 41197185; 2025-10-25",
+        "Untreated metastatic pancreatic cancer; high-dose ascorbic acid with nab-paclitaxel, cisplatin, and gemcitabine."
+      ],
+      [
+        "NCT03415854",
+        "Yes",
+        "ClinicalTrials.gov",
+        "Not confirmed",
+        "No primary journal report was confirmed in the bounded searches."
+      ],
+      [
+        "NCT03490669",
+        "No",
+        "Not confirmed",
+        "PMID 35921760; 2022-07-31",
+        "MSC-1/AZD0171 phase I in advanced solid tumors; 41 treated overall. Mixed-tumor report; do not infer pancreas-specific efficacy."
+      ],
+      [
+        "NCT03520790",
+        "Yes",
+        "Not confirmed",
+        "PMID 42185478; 2026-05-25",
+        "Randomized multiarm pancreatic cancer trial; article reports the run-in/safety phase, not all planned randomized efficacy outcomes."
+      ],
+      [
+        "NCT03563248",
+        "Yes",
+        "Not confirmed",
+        "Not confirmed (candidate PMID 41486497 excluded)",
+        "Review of losartan in tumor therapy; not a clinical outcome report from this trial."
+      ],
+      [
+        "NCT03649321",
+        "No",
+        "ClinicalTrials.gov",
+        "Not confirmed",
+        "No primary journal report was confirmed in the bounded searches."
+      ],
+      [
+        "NCT03762590",
+        "Yes",
+        "Not confirmed",
+        "PMID 38320723; 2024-02-05",
+        "GENERATE trial randomized 601 participants from 424 families; 815 initiated study procedures. The registry target of 1,000 is estimated and must not be substituted for actual enrollment."
+      ],
+      [
+        "NCT03956056",
+        "No",
+        "ClinicalTrials.gov",
+        "PMID 42696575; 2026-09-04",
+        "Pancreatic ductal adenocarcinoma phase I personalized cancer vaccine cohort; paper combines results from two phase I trials and focuses on neoantigen-specific T-cell responses."
+      ],
+      [
+        "NCT04177810",
+        "No",
+        "ClinicalTrials.gov",
+        "PMID 40815609; 2025-08-15",
+        "CXCR4 antagonism with PD-1 inhibition in metastatic pancreatic adenocarcinoma; trial report describes T-cell recruitment and immunosuppressive macrophages."
+      ]
+    ],
+    "notes": [
+      "Name hit refers to the common core and expanded-query subset. Registry evidence was confirmed for 13 records, journal evidence for 16, and both for nine, giving 20 with either channel. “Not confirmed” refers to this assessment. PMID36593070 was verified to publication year only."
+    ]
+  },
+  {
+    "number": "S4",
+    "title": "Primary-paper confirmation in 13 historical MRC source rows",
+    "columns": [
+      "Workbook row and grant",
+      "Trial identifier in paper",
+      "Qualifying paper",
+      "Primary-outcome or report role"
+    ],
+    "widths": [
+      105,
+      110,
+      75,
+      208
+    ],
+    "rows": [
+      [
+        "13; MR/P008984/1",
+        "NCT03359915",
+        "PMID 37698443",
+        "Qualifies: the article reports the pilot randomized trial's stated primary SGRQ score at 12 months numerically (Table 3)."
+      ],
+      [
+        "23; MR/P021492/1",
+        "ISRCTN49726849",
+        "PMID 39506794",
+        "Qualifies: Table 2 is explicitly titled Primary and secondary outcomes and reports numerical primary CRP-change and seven-day outcomes."
+      ],
+      [
+        "28; MR/R006040/1",
+        "NCT03554616",
+        "PMID 35339225",
+        "Qualifies: the article reports the primary trial's malaria infection outcome through 24 months numerically (Table 2)."
+      ],
+      [
+        "33; MR/R006229/1",
+        "ISRCTN57805470",
+        "PMID 36202129",
+        "Qualifies: the article reports the current cluster-randomized trial's primary depression-recovery outcome at eight months numerically (Table 2)."
+      ],
+      [
+        "43; MR/R018278/1",
+        "CTRI/2019/05/018893",
+        "PMID 37002475",
+        "Qualifies as a feasibility primary report under the MRC rule: the current feasibility study measures recruitment, follow-up, and intervention adherence and reports them numerically. It does not qualify on future definitive-trial clinical co-primary outcomes; HbA1c and other clinical effects remain exploratory."
+      ],
+      [
+        "53; MR/R020485/1",
+        "ISRCTN17842200",
+        "PMID 39574522",
+        "Qualifies: the article identifies the current VALID trial's primary outcome as IFA compliance and reports its primary analysis numerically (Tables 4–5)."
+      ],
+      [
+        "63; MR/R022216/1",
+        "ISRCTN75609016; NCT04060420",
+        "PMID 37083700",
+        "Qualifies: this is the primary Yathu Yathu report for knowledge of HIV status; the primary endpoint and trial results are reported numerically (Table pmed.1004203.t002)."
+      ],
+      [
+        "64; MR/R022410/1",
+        "NCT04254393",
+        "PMID 35729589",
+        "Qualifies as a feasibility primary report: the article's stated purpose is feasibility and acceptability, and it reports current-study participation/implementation feasibility numerically. PSC scores are not relied on as an efficacy result."
+      ],
+      [
+        "75; MR/S004971/1",
+        "NCT02811432",
+        "PMID 38754454",
+        "Qualifies: the article reports early neonatal mortality at seven days, the stated primary outcome, numerically (Table 2)."
+      ],
+      [
+        "128; MR/R02118X/1 (Trial A)",
+        "ISRCTN60517191",
+        "PMID 39424571",
+        "Qualifies: the article reports the primary vaccine-response analysis numerically (Table 2; stratified analysis in Table 3)."
+      ],
+      [
+        "129; MR/R02118X/1 (Trial B)",
+        "ISRCTN62041885",
+        "PMID 39424572",
+        "Qualifies: the article reports the trial's primary vaccine-response endpoints numerically (Table 2)."
+      ],
+      [
+        "130; MR/R02118X/1 (Trial C)",
+        "ISRCTN10482904",
+        "PMID 39424573",
+        "Qualifies: the article reports the trial's primary vaccine-response endpoint numerically (Table 2)."
+      ],
+      [
+        "131; MR/T005009/1",
+        "NCT03209258; ChiCTR-IOC-17011787",
+        "PMID 37245517",
+        "Qualifies: the article reports six-month functional outcome in the current cluster-randomized trial numerically (Table 3)."
+      ]
+    ],
+    "notes": [
+      "Six of the 13 confirmed rows had source NCTs and seven did not. Source rows remain the analysis unit, including rows that list multiple registrations. The other 45 historical rows remained unresolved in the bounded paper assessment."
+    ]
+  },
+  {
+    "number": "S5",
+    "title": "Source-derived NIHR pilot reference links at the original freeze",
+    "columns": [
+      "Award family",
+      "Reference registry identifiers",
+      "Source-linked report"
+    ],
+    "widths": [
+      85,
+      175,
+      238
+    ],
+    "rows": [
+      [
+        "09/127/53",
+        "NCT02841527; ISRCTN00786323",
+        "DOI 10.3310/CXSE2951; PMID 41631732"
+      ],
+      [
+        "14/08/45",
+        "ISRCTN23800982",
+        "DOI 10.3310/JNZT9406; PMID 35129113"
+      ],
+      [
+        "10/46/01",
+        "ISRCTN95809946",
+        "DOI 10.3310/hta23030; PMID 30702059"
+      ],
+      [
+        "10/104/13",
+        "NCT01680276",
+        "DOI 10.3310/hta22150; PMID 29596045"
+      ],
+      [
+        "13/28/02",
+        "Unresolved",
+        "DOI 10.3310/hta21450; PMID 28853392"
+      ],
+      [
+        "13/04/03",
+        "ISRCTN13472721",
+        "DOI 10.3310/THBQ1793; PMID 36524582"
+      ],
+      [
+        "11/94/01",
+        "ISRCTN53303171",
+        "DOI 10.3310/hta23580; PMID 31635689"
+      ],
+      [
+        "10/135/02",
+        "ISRCTN12421382",
+        "DOI 10.3310/ADWP8001; PMID 39364774"
+      ],
+      [
+        "12/35/27",
+        "NCT02128555; ISRCTN60672307",
+        "DOI 10.3310/PTYJ1146; PMID 37022932"
+      ],
+      [
+        "13/88/13",
+        "ISRCTN09599764",
+        "DOI 10.3310/hta23340; PMID 31304912"
+      ],
+      [
+        "13/04/22",
+        "NCT02235181; ISRCTN98835694",
+        "DOI 10.3310/hta25440; PMID 34219633"
+      ],
+      [
+        "12/35/57",
+        "ISRCTN87370545",
+        "DOI 10.3310/GJPH0512; PMID 42663405"
+      ]
+    ],
+    "notes": [
+      "There were 11 linked families, 14 registry identifiers, and three dual registrations. The unresolved family remained outside the known-link denominator. Subsequent full-frame source corrections did not alter this original pilot reference."
+    ]
+  }
+]

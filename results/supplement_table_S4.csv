@@ -1,0 +1,14 @@
+Workbook row and grant,Trial identifier in paper,Qualifying paper,Primary-outcome or report role
+13; MR/P008984/1,NCT03359915,PMID 37698443,Qualifies: the article reports the pilot randomized trial's stated primary SGRQ score at 12 months numerically (Table 3).
+23; MR/P021492/1,ISRCTN49726849,PMID 39506794,Qualifies: Table 2 is explicitly titled Primary and secondary outcomes and reports numerical primary CRP-change and seven-day outcomes.
+28; MR/R006040/1,NCT03554616,PMID 35339225,Qualifies: the article reports the primary trial's malaria infection outcome through 24 months numerically (Table 2).
+33; MR/R006229/1,ISRCTN57805470,PMID 36202129,Qualifies: the article reports the current cluster-randomized trial's primary depression-recovery outcome at eight months numerically (Table 2).
+43; MR/R018278/1,CTRI/2019/05/018893,PMID 37002475,"Qualifies as a feasibility primary report under the MRC rule: the current feasibility study measures recruitment, follow-up, and intervention adherence and reports them numerically. It does not qualify on future definitive-trial clinical co-primary outcomes; HbA1c and other clinical effects remain exploratory."
+53; MR/R020485/1,ISRCTN17842200,PMID 39574522,Qualifies: the article identifies the current VALID trial's primary outcome as IFA compliance and reports its primary analysis numerically (Tables 4–5).
+63; MR/R022216/1,ISRCTN75609016; NCT04060420,PMID 37083700,Qualifies: this is the primary Yathu Yathu report for knowledge of HIV status; the primary endpoint and trial results are reported numerically (Table pmed.1004203.t002).
+64; MR/R022410/1,NCT04254393,PMID 35729589,"Qualifies as a feasibility primary report: the article's stated purpose is feasibility and acceptability, and it reports current-study participation/implementation feasibility numerically. PSC scores are not relied on as an efficacy result."
+75; MR/S004971/1,NCT02811432,PMID 38754454,"Qualifies: the article reports early neonatal mortality at seven days, the stated primary outcome, numerically (Table 2)."
+128; MR/R02118X/1 (Trial A),ISRCTN60517191,PMID 39424571,Qualifies: the article reports the primary vaccine-response analysis numerically (Table 2; stratified analysis in Table 3).
+129; MR/R02118X/1 (Trial B),ISRCTN62041885,PMID 39424572,Qualifies: the article reports the trial's primary vaccine-response endpoints numerically (Table 2).
+130; MR/R02118X/1 (Trial C),ISRCTN10482904,PMID 39424573,Qualifies: the article reports the trial's primary vaccine-response endpoint numerically (Table 2).
+131; MR/T005009/1,NCT03209258; ChiCTR-IOC-17011787,PMID 37245517,Qualifies: the article reports six-month functional outcome in the current cluster-randomized trial numerically (Table 3).

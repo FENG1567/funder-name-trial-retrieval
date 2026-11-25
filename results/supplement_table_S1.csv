@@ -1,0 +1,5 @@
+Source,Source formation,Posting eligibility,Historical or retrieval analysis
+SU2C,"27 screened entries: 11 included, 3 uncertain, 13 excluded; 33 distinct linked NCTs",24/33 eligible; 9 excluded,25/33 historically eligible; 8 outside eligibility
+MRC,141 rows; 63 NCT-bearing rows; 65 unique NCTs,34/65 eligible; 31 excluded,58/141 eligible rows; 83 ended after cutoff; 27/58 rows NCT-bearing
+KCE,79 page rows; 78 programme-code entries; 61 unique validated NCTs,27/61 eligible; 34 excluded,"Other source entries: 1 ISRCTN-only, 3 other registries, 13 unresolved"
+NIHR HTA,"350 awards: 126 clear trial titles, 42 nontrial, 182 unclear; 1 prior-exposure holdout",Not a posting analysis,"125 evaluated families; pilot 12, extension 24; 97 linked and 28 unresolved in full frame"

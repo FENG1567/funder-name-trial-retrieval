@@ -1,0 +1,59 @@
+﻿source_excel_row,mrc_grant_reference_raw,trial_end_date_registry_raw,isctn_reference_raw,clinicaltrials_gov_reference_raw,nct_identifiers_extracted,eudract_euctr_reference_raw,other_who_primary_registry_raw,publication_status_01_12_2024_raw,derived_reporting_class_within_eligible_cohort
+3,MC_EX_MR/R006075/1,2019-12-31 00:00:00,,NCT03576313,NCT03576313,,,reported within 12 months,reported
+6,MR/N01782X/1,2018-09-15 00:00:00,ISRCTN17365679,,,2015-000704-25,,reported within 12 months,reported
+8,MR/P006183/1,2021-07-31 00:00:00,,NCT03274947,NCT03274947,,,reported after 24 months,reported
+10,MR/P007694/1,2019-01-31 00:00:00,,NCT02949492,NCT02949492,,,reported within 12 months,reported
+12,MR/P008933/1,2021-05-01 00:00:00,,,,,CTRI/2017/12/010771,reported within 12 months,reported
+13,MR/P008984/1,2019-11-30 00:00:00,,NCT03365713 & NCT03359915,NCT03359915;NCT03365713,,,reported within 12 months,reported
+14,MR/P015018/1,2021-07-01 00:00:00,ISRCTN14667607,,,,,reported within 12 months,reported
+15,MR/P01710X/1,2020-12-31 00:00:00,ISRCTN16159564,NCT05361083,NCT05361083,2018-004851-18,,reported within 12 months,reported
+16,MR/P017355/1,2020-07-30 00:00:00,ISRCTN16876240,NCT03935035,NCT03935035,,,reported 12 to 24 months,reported
+17,MR/P020283/1,2018-08-20 00:00:00,,NCT04064736,NCT04064736,,,reported within 12 months,reported
+18,MR/P020348/1,2020-06-15 00:00:00,,NCT04078360,NCT04078360,,,reported after 24 months,reported
+19,MR/P020593/1,2019-06-27 00:00:00,,NCT02181088 & NCT02927145,NCT02181088;NCT02927145,2013-005458-31,,reported 12 to 24 months,reported
+20,MR/P020844/1,2019-03-31 00:00:00,,,,,PACTR201812802696820,reported after 24 months,reported
+21,MR/P021166/1,2021-04-01 00:00:00,,,,,CTRI/2019/05/019484,reported within 12 months,reported
+22,MR/P021174/1,2021-12-31 00:00:00,,,,,PACTR201903750173871,reported within 12 months,reported
+23,MR/P021492/1,2022-04-01 00:00:00,ISRCTN49726849,,,,,reported after 24 months,reported
+24,MR/P026265/1,2018-12-12 00:00:00,,NCT03661762,NCT03661762,,,reported within 12 months,reported
+25,MR/P02629X/1,2021-12-31 00:00:00,ISRCTN12497310,,,,,reported after 24 months,reported
+26,MR/P026664/1,2020-09-30 00:00:00,ISRCTN76986679,,,,,reported within 12 months,reported
+27,MR/R004587/1,2019-10-01 00:00:00,,,,,ACTRN12619000421134,reported within 12 months,reported
+28,MR/R006040/1,2021-12-31 00:00:00,,NCT03554616,NCT03554616,,,reported after 24 months,reported
+32,MR/R006180/1,2022-07-30 00:00:00,,NCT03749902,NCT03749902,,,reported 12 to 24 months,reported
+33,MR/R006229/1,2022-05-31 00:00:00,ISRCTN57805470,,,,,reported within 12 months,reported
+35,MR/R006458/1,2022-01-19 00:00:00,ISRCTN12895613,,,2018-002721-29,,reported within 12 months,reported
+36,MR/R006466/1,2021-09-30 00:00:00,ISRCTN12424734,,,2018-000076-15,,reported 12 to 24 months,reported
+38,MR/R015236/1,2020-07-06 00:00:00,,NCT03084289,NCT03084289,,,reported after 24 months,reported
+39,MR/R015252/1,2020-07-01 00:00:00,,,,,TCTR20170830002,reported within 12 months,reported
+43,MR/R018278/1,2020-09-01 00:00:00,,,,,CTRI/2019/05/018893,reported within 12 months,reported
+44,MR/R018391/1,2021-10-21 00:00:00,,,,,TCTR20180710007,"ended > 24 months, not reported",not_reported
+45,MR/R018421/1,2019-12-01 00:00:00,ISRCTN17030989,,,,,reported after 24 months,reported
+46,MR/R018456/1,2021-11-30 00:00:00,,NCT04782453,NCT04782453,,,reported 12 to 24 months,reported
+47,MR/R018464/1,2020-08-31 00:00:00,,,,,PACTR202003522145106,reported within 12 months,reported
+49,MR/R019355/1,2020-05-25 00:00:00,,NCT04092114,NCT04092114,,,reported after 24 months,reported
+50,MR/R020345/1,2022-09-16 00:00:00,ISRCTN18467720,,,,CTRI/2018/07/014947,"ended > 24 months, not reported",not_reported
+51,MR/R020396/1,2022-09-25 00:00:00,,NCT04083560,NCT04083560,,CTRI/2018/07/015048,reported within 12 months,reported
+52,MR/R02040X/1,2022-04-30 00:00:00,,,,,TCTR20200322006,"ended > 24 months, not reported",not_reported
+53,MR/R020485/1,2021-10-31 00:00:00,ISRCTN17842200,,,,CTRI/2020/04/024471,reported 12 to 24 months,reported
+57,MR/R021376/1,2022-05-12 00:00:00,ISRCTN10672137,,,,,reported within 12 months,reported
+60,MR/R022186/1,2021-01-31 00:00:00,ISRCTN13909759,,,,,reported after 24 months,reported
+61,MR/R022194/1,2020-08-28 00:00:00,,,,,PACTR201809769868245,reported within 12 months,reported
+63,MR/R022216/1,2021-06-30 00:00:00,ISRCTN75609016 ,NCT04060420,NCT04060420,,,reported 12 to 24 months,reported
+64,MR/R022410/1,2020-06-30 00:00:00,,NCT04254393,NCT04254393,,,reported 12 to 24 months,reported
+66,MR/R023360/1,2021-11-30 00:00:00,,NCT04097639,NCT04097639,,,reported within 12 months,reported
+67,MR/R025347/1,2021-12-30 00:00:00,,NCT02192008,NCT02192008,,,reported within 12 months,reported
+69,MR/S00243X/1,2022-06-30 00:00:00,ISRCTN93243890,,,,,"ended > 24 months, not reported",not_reported
+70,MR/S003037/1,2021-09-30 00:00:00,,NCT04141904,NCT04141904,,,reported within 12 months,reported
+75,MR/S004971/1,2022-09-30 00:00:00,,NCT02811432,NCT02811432,,,reported within 12 months,reported
+78,MR/S005048/1,2020-09-20 00:00:00,ISRCTN84188565,NCT02655315,NCT02655315,2015-003679-31,,reported after 24 months,reported
+83,MR/S023860/1,2020-07-31 00:00:00,,NCT03745573,NCT03745573,,,reported 12 to 24 months,reported
+87,MR/T003995/1,2021-12-21 00:00:00,,NCT04480749,NCT04480749,,,reported 12 to 24 months,reported
+92,MR/T005092/1,2022-12-03 00:00:00,ISRCTN13947785,,,,,reported 12 to 24 months,reported
+94,MR/T02349X/1,2022-07-01 00:00:00,ISRCTN12294839,,,,,reported after 24 months,reported
+101,MR/T038616/1,2021-11-11 00:00:00,,NCT04819711,NCT04819711,,,reported 12 to 24 months,reported
+128,MR/R02118X/1 (Trial A),2020-08-31 00:00:00,ISRCTN60517191,,,,,reported 12 to 24 months,reported
+129,MR/R02118X/1 (Trial B),2022-04-30 00:00:00,ISRCTN62041885,,,,,reported 12 to 24 months,reported
+130,MR/R02118X/1 (Trial C),2022-04-30 00:00:00,ISRCTN10482904,,,,,reported 12 to 24 months,reported
+131,MR/T005009/1,2022-11-17 00:00:00,,NCT03209258,NCT03209258,,ChiCTR-IOC-17011787,reported within 12 months,reported
+142,MR/T003618/1,2022-08-31 00:00:00,ISRCTN97229911,,,,,"ended > 24 months, not reported",not_reported

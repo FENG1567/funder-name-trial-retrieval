@@ -1,0 +1,164 @@
+{
+  "table": {
+    "number": 4,
+    "title": "NIHR name queries and source-assisted retrieval of known identifiers",
+    "columns": [
+      "Sample and platform",
+      "Known IDs, N",
+      "A search scope",
+      "A names, n/N",
+      "B award or title, n/N"
+    ],
+    "widths": [
+      110,
+      48,
+      115,
+      85,
+      112
+    ],
+    "rows": [
+      {
+        "section": "Pilot: 12 families; 11 linked; 14 IDs; 3 dual registrations; 1 unresolved"
+      },
+      [
+        "ClinicalTrials.gov",
+        "4",
+        "Global, complete",
+        "1/4",
+        "4/4"
+      ],
+      [
+        "ISRCTN",
+        "10",
+        "Global, incomplete export",
+        "Not estimable",
+        "10/10"
+      ],
+      {
+        "section": "Extension: 24 families; 19 linked; 21 IDs, including 1 EudraCT ID"
+      },
+      [
+        "ClinicalTrials.gov",
+        "1",
+        "Global, complete",
+        "0/1",
+        "1/1"
+      ],
+      [
+        "ISRCTN",
+        "19",
+        "Known-ID restricted",
+        "18/19",
+        "19/19"
+      ],
+      {
+        "section": "All 125 families: 97 linked; 28 unresolved"
+      },
+      [
+        "ClinicalTrials.gov",
+        "8",
+        "Known-ID restricted",
+        "2/8",
+        "Not evaluated"
+      ],
+      [
+        "ISRCTN",
+        "96",
+        "Known-ID restricted",
+        "90/96",
+        "Not evaluated"
+      ]
+    ],
+    "notes": [
+      "Pilot ISRCTN A was not estimable. EudraCT was outside the platform-specific comparisons. Registrations and trial families are distinct units."
+    ]
+  },
+  "rows": [
+    {
+      "section": "Pilot: 12 families; 11 linked; 14 IDs; 3 dual registrations; 1 unresolved"
+    },
+    [
+      "ClinicalTrials.gov",
+      "4",
+      "Global, complete",
+      "1/4",
+      "4/4"
+    ],
+    [
+      "ISRCTN",
+      "10",
+      "Global, incomplete export",
+      "Not estimable",
+      "10/10"
+    ],
+    {
+      "section": "Extension: 24 families; 19 linked; 21 IDs, including 1 EudraCT ID"
+    },
+    [
+      "ClinicalTrials.gov",
+      "1",
+      "Global, complete",
+      "0/1",
+      "1/1"
+    ],
+    [
+      "ISRCTN",
+      "19",
+      "Known-ID restricted",
+      "18/19",
+      "19/19"
+    ],
+    {
+      "section": "All 125 families: 97 linked; 28 unresolved"
+    },
+    [
+      "ClinicalTrials.gov",
+      "8",
+      "Known-ID restricted",
+      "2/8",
+      "Not evaluated"
+    ],
+    [
+      "ISRCTN",
+      "96",
+      "Known-ID restricted",
+      "90/96",
+      "Not evaluated"
+    ]
+  ],
+  "pilot": {
+    "families": 12,
+    "linked_families": 11,
+    "identifiers": 14,
+    "ClinicalTrials.gov": {
+      "known": 4,
+      "A": 1,
+      "B": 4,
+      "A_scope": "global complete"
+    },
+    "ISRCTN": {
+      "known": 10,
+      "A": null,
+      "B": 10,
+      "A_scope": "global incomplete; not estimable"
+    }
+  },
+  "extension": {
+    "families": 24,
+    "linked_families": 19,
+    "identifiers": 21,
+    "other_registry_identifiers": 1,
+    "ClinicalTrials.gov": {
+      "known": 1,
+      "A": 0,
+      "B": 1,
+      "A_scope": "global complete"
+    },
+    "ISRCTN": {
+      "known": 19,
+      "A": 18,
+      "B": 19,
+      "A_scope": "known-ID restricted"
+    }
+  }
+}

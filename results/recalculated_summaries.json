@@ -1,0 +1,74 @@
+{
+  "SU2C_historical": {
+    "reference": [
+      20,
+      25
+    ],
+    "name_subset": [
+      9,
+      12
+    ],
+    "conference_reference": [
+      21,
+      25
+    ],
+    "conference_subset": [
+      10,
+      12
+    ],
+    "current_ACTUAL_eligible_count": 24,
+    "registry_n": 13,
+    "journal_n": 16,
+    "registry_journal_overlap": 9
+  },
+  "MRC_historical": {
+    "all_source_rows": 141,
+    "historical_rows": 58,
+    "reference": [
+      53,
+      58
+    ],
+    "any_registry": [
+      53,
+      58
+    ],
+    "NCT_bearing": [
+      27,
+      27
+    ],
+    "historical_unique_NCTs": 29,
+    "core_query": [
+      9,
+      9
+    ],
+    "expanded_query": [
+      12,
+      12
+    ]
+  },
+  "NIHR_full_frame": {
+    "families": 125,
+    "linked_families": 97,
+    "unresolved_families": 28,
+    "links": 104,
+    "A_hit_families": 90,
+    "platforms": {
+      "ClinicalTrials.gov": [
+        2,
+        8
+      ],
+      "ISRCTN": [
+        90,
+        96
+      ]
+    }
+  },
+  "supporting": {
+    "MRC_confirmed_paper_rows": 13,
+    "MRC_confirmed_rows_with_source_NCT": 6,
+    "MRC_confirmed_rows_without_source_NCT": 7,
+    "SU2C_projects": 11,
+    "SU2C_unique_NCTs": 33,
+    "SU2C_project_link_rows": 33
+  }
+}
